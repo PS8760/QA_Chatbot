@@ -15,6 +15,10 @@ from autocorrect import Speller
 import mysql.connector
 from datetime import datetime
 import matplotlib.pyplot as plt  # For plotting the accuracy graph
+from pydub import AudioSegment
+import wave
+
+
 
 # MySQL Database Configuration
 db_config = {
